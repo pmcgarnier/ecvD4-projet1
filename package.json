@@ -1,0 +1,27 @@
+{
+  "name": "ecvd4-pr1",
+  "version": "1.0.0",
+  "description": "projecttest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmcgarnier/ecvD4-pr1.git"
+  },
+  "keywords": [
+    "node",
+    "tippy",
+    "training"
+  ],
+  "author": "P Garnier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmcgarnier/ecvD4-pr1/issues"
+  },
+  "homepage": "https://github.com/pmcgarnier/ecvD4-pr1#readme",
+  "dependencies": {
+    "tippy.js": "^6.1.0"
+  }
+}

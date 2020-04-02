@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="node_modules/tippy.js/dist/tippy.css">
+    </head>
+  <body>
+    <h1>Hello World !</h1>
+    <p>this is me</p>
+    <button data-tippy-content="Tooltip">Button 01</button>
+    <button data-tippy-content="Another Tooltip">Button 02</button>
+
+
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+     <script src="node_modules/tippy.js/dist/tippy-bundle.umd.js"></script>
+
+<script type="text/javascript">
+  tippy('[data-tippy-content]');
+</script>
+  </body>
+</html>
